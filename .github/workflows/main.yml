@@ -8,6 +8,10 @@ on:
       - '**.png'
       - '**.webp'
   push:
+
+permissions:
+  pull-requests: write
+
 jobs:
   build:
     name: calibreapp/image-actions
